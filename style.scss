@@ -1,0 +1,136 @@
+// GENERAL CSS
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container-fluid {
+    padding: 1% 30% 0;
+    background-color: #FCFCFC;
+}
+
+.section {
+    padding-bottom: 5%;
+}
+
+.section-separator-hr {
+    color: #333;
+    opacity: 1 !important;
+    height: 3px !important;
+}
+
+// PERSONALINFORMATION SECTION
+
+.image-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+// EXPERIENCE SECTION
+
+.experience-separator-hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 1px;
+    background-color: white !important;
+}
+
+.experience-icons {
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    color:#8f8f8f;
+}
+
+li {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+// TECH STACK SECTION 
+
+.tech-stack {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+// FOOTER SECTION
+
+footer {
+    padding: 5% 0 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.social-section {
+    padding-bottom: 1rem;
+}
+
+.social-icons {
+    margin: 0 1rem;
+}
+
+.footer-text {
+    color:#8f8f8f;
+}
+
+#scrollToTopBtn {
+    position: absolute;
+    margin: 1%;
+    right: 0;
+    // background-color: #333;
+    // border-radius: 50%;
+    background: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 40px;
+    width: 40px;
+}
+
+// RESPONSIVENESS
+
+@media (max-width: 1500px) {
+    .container-fluid {
+        padding: 3% 20% 0%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container-fluid {
+        padding: 3% 10% 0%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-fluid {
+        padding: 3% 10% 0%;
+    }
+    #scrollToTopBtn {
+        margin: 3%;
+    }
+    .project-names {
+        display: none;
+    }
+    .project-buttons {
+        line-height: 1;
+    }
+}
