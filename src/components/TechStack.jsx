@@ -10,10 +10,10 @@ function TechStack() {
                 <Col className='tech-stack'>HTML</Col>
                 <Col className='tech-stack'>CSS</Col>
                 <Col className='tech-stack'>Javascript</Col>
-                <Col className='tech-stack'>jQuery</Col>
                 <Col className='tech-stack'>React</Col>
                 <Col className='tech-stack'>Bootstrap</Col>
                 <Col className='tech-stack'>SCSS</Col>
+                <Col className='tech-stack'>jQuery</Col>
                 <Col className='tech-stack'>npm</Col>
             </Row>
         </div>
