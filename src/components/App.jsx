@@ -4,7 +4,7 @@ import PersonalInformation from './PersonalInformation';
 import Experience from './Experience';
 import Education from './Education';
 import TechStack from './TechStack';
-import Projects from './Projects';
+// import Projects from './Projects';
 import Footer from './Footer';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             <Experience />
             <Education />
             <TechStack />
-            <Projects />
+            {/* <Projects /> */}
             <Footer />
         </Container>
     );
