@@ -8,11 +8,14 @@ function TechStack() {
     { label: "JavaScript" },
     { label: "Bootstrap" },
     { label: "SCSS" },
-    { label: "ReactJS" },
-    { label: "Redux" },
+    { label: "React.js" },
+    { label: "Redux Toolkit" },
     { label: "React Router" },
+    { label: "Next.js" },
+    { label: "Firebase" },
+    { label: "MongoDB" },
+    { label: "Git" },
     { label: "REST APIs" },
-    { label: "Firebase RTDB" },
   ];
 
   return (
