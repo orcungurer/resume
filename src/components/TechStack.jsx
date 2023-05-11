@@ -24,7 +24,9 @@ function TechStack() {
       <hr className="section-separator-hr"></hr>
       <Row xs={4} className="tech-stack-row">
         {techStack.map((stackItem) => (
-            <Col key={stackItem.label} className="tech-stack">{stackItem.label}</Col>
+          <Col key={stackItem.label} className="tech-stack">
+            {stackItem.label}
+          </Col>
         ))}
       </Row>
     </div>
