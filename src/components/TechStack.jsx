@@ -12,6 +12,7 @@ function TechStack() {
     { label: "Redux Toolkit" },
     { label: "React Router" },
     { label: "Next.js" },
+    { label: "Jest" },
     { label: "Firebase" },
     { label: "MongoDB" },
     { label: "Git" },
